@@ -9,7 +9,7 @@
     <div class="description col s6">
       <div class="title">{{ study.title }} {{ (study.level ? '(' + study.level + ')' : '') }}</div>
       <div *ngIf="study.place" class="place">{{ study.place }}</div>
-      <div class="dates">({{ study.to }})</div>
+      <div class="dates">{{ study.to ? '(' + study.to + ')' : '' }}</div>
     </div>
   </div>
 </section>

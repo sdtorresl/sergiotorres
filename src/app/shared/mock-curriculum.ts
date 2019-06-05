@@ -52,7 +52,7 @@ export const CURRICULUM: Curriculum = {
                 to: '2019'
             },
             {
-                type: 'Languages',
+                type: '',
                 title: 'Spanish',
                 level: 'Native'
             },
@@ -63,28 +63,33 @@ export const CURRICULUM: Curriculum = {
         informationDetails: [
             {
                 title: 'Operations Engineer (I New Unified Mobile Solutions)',
-                text: 'Support and keep running allthe components of the MVNO platform in operation, as well as carry out corrective and preventive maintenance tasks on it.',
+                text: 'Support and keep running all the components of the MVNO platform in operation, as well as carry out corrective and preventive maintenance tasks on it.',
                 date: 'November 2017 - Currently'
             },
             {
-                title: 'Solutions Architect (Huawei Technologies Co.)',
-                text: 'Guide the process of the analysis,development and implementation of customer requirements over the IPTV platform in a technical point of view.',
-                date: 'September 2015 - October 2017'
+                title: 'Solutions Service Responsible (Huawei Technologies Co.)',
+                text: 'Analyze customer technical requirements to provide quotations and offer appropriate solutions based on company engineering services.',
+                date: 'May 2017 - October 2017'
             },
             {
-                title: 'Chief Technology Officer (Exea SAS)',
-                text: 'Plan, direct and implement the operation and installation of new points of reception of Internet radio. Manage the development and maintenance of servers, devices and applications that are required for the proper functioning of the services of the company.',
+                title: 'Solutions Architect (Huawei Technologies Co.)',
+                text: 'Guide the process of the analysis, development and implementation of customer requirements over the IPTV platform from a technical point of view.',
+                date: 'September 2015 - May 2017'
+            },
+            {
+                title: 'Technology Director (Exea SAS)',
+                text: 'Plan, direct and implement the operation and installation of new points of reception of Internet radio. Manage the development and maintenance of servers, devices and applications that are required for the proper functioning of the company services.',
                 date: 'February 2014 – August 2015'
             },
             {
                 title: 'Support Engineer (Exea SAS)',
-                text: 'Support and keep running allthe components of the MVNO platform in operation, as well as carry out corrective and preventive maintenance tasks on it.',
-                date: 'November 2017 - Currently'
+                text: 'Offer support and maintenance of the infraestructure of the company, including servers, databases and streaming applications.',
+                date: 'September 2013 - February 2014'
             },
             {
                 title: 'Web Developer (Moving Web)',
-                text: 'Support and keep running allthe components of the MVNO platform in operation, as well as carry out corrective and preventive maintenance tasks on it.',
-                date: 'November 2017 - Currently'
+                text: 'Develop and implement web pages and applications using content management systems.',
+                date: 'January 2013 - September 2013'
             }
         ]
     },
@@ -109,7 +114,7 @@ export const CURRICULUM: Curriculum = {
             },
             {
                 title: 'Huawei Technologies Co.',
-                text : 'Decrease delivery times of the phases of the project by filtering requirements in a technical level, creating better functional requirement specifications and implementing a local development team in order to make simple changes faster.'
+                text : 'Decrease delivery times of the phases of the project by filtering requirements in a technical level, creating better functional requirements specifications and implementing a local development team in order to deliver simple changes faster.'
             },
             {
                 title: 'Exea SAS',
@@ -117,7 +122,7 @@ export const CURRICULUM: Curriculum = {
             },
             {
                 title: 'Exea SAS',
-                text: 'Develop an Internet radio receiver device known as EMP replacing old technologies with the goal of decreasing support cases and allow remote assistance.'
+                text: 'Develop an Internet radio receiver device known as EMP, replacing old technologies with the goal of decreasing support cases and allow remote assistance.'
             },
             {
                 title: 'Exea SAS',
@@ -133,7 +138,7 @@ export const CURRICULUM: Curriculum = {
             },
             {
                 title: 'Moving Web',
-                text: 'Development and adaptation of several projects.'
+                text: 'Development and adaptation of several projects of the company'
             }
         ]
     },
