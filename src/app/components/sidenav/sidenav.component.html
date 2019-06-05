@@ -1,0 +1,19 @@
+<ul id="slide-out" class="sidenav sidenav-fixed">
+  <li>
+    <div class="user-view">
+      <div class="background">
+        <!-- <img src="https://s.tmimgcdn.com/blog/wp-content/uploads/2016/04/1-9-2.jpg?x54449"> -->
+      </div>
+      <a href="#user"><img class="circle" [src]="personalData.photo"></a>
+      <a href="#name"><span class="white-text name">{{ personalData.firstName + ' ' + personalData.lastName }}</span></a>
+      <a [href]="'mailto:' + personalData.email"><span class="white-text email">{{ personalData.email }}</span></a>
+    </div>
+  </li>
+  <li class="item"><a class="waves-effect" href="#profile"><i class="material-icons">person</i>About me</a></li>
+  <li class="item"><a class="waves-effect" href="#education"><i class="material-icons">school</i>Education</a></li>
+  <li class="item"><a class="waves-effect" href="#skills"><i class="material-icons">code</i>Skills</a></li>
+  <li class="item"><a class="waves-effect" href="#experience"><i class="material-icons">work</i>Work Experience</a></li>
+  <li class="item"><a class="waves-effect" href="#achievements"><i class="material-icons">local_activity</i>Achievements</a></li>
+  <li><div class="divider"></div></li>
+  <li class="item"><a class="waves-effect" href="#achievements"><i class="material-icons">mail</i>Contact Me</a></li>
+</ul>

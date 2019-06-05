@@ -1,0 +1,60 @@
+@import "../../../overrides"
+
+.skill 
+
+    .card
+        min-height: 140px
+        padding: 20px
+        display: flex
+        flex-direction: column
+        flex-wrap: nowrap
+        justify-content: space-between
+        align-items: stretch
+        align-content: stretch
+        transition: 0.5s ease-in
+
+        .icon, .description, .level-container, .level
+            transition: 0.25s linear
+
+        &:hover
+            cursor: pointer
+            background: black
+            transform: scale(1.1)
+            z-index: 1
+
+            .description
+                color: white
+
+            .level-container
+                border-color: white
+
+            .level
+                background: white
+
+    .row
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-bottom: 0
+
+.level-container
+    border: 1px solid color('blue', 'darken-2')
+    border-radius: 1rem
+    overflow: hidden
+
+    .level
+        height: 1rem
+        background: color('blue', 'lighten-1')
+
+.icon
+    height: 60px
+    width: 60px
+    border-radius: 50px
+    background: black
+    margin: 0
+    padding: 0
+
+    i
+        font-size: 2.5rem
+        line-height: 60px
+        width: 60px

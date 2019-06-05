@@ -1,0 +1,27 @@
+<section id="skills">
+  <div class="section">
+    <h2>{{ skills.title }}</h2>
+    <div class="divider"></div>
+  </div>
+
+  <div class="row">
+    <div class="skill col s12 m6 l4" *ngFor="let skill of skills.skills">
+      <div class="card">
+        <div class="row">
+          <div class="col s2">
+            <figure class="icon">
+              <i [class]="skill.icon + ' center-align white-text'"></i>
+            </figure>
+          </div>
+          <div class="col s8 offset-s2 description">
+            {{ skill.values.join(', ') }}
+          </div>
+        </div>
+  
+        <div class="level-container">
+          <div class="level animated slideInLeft" [ngStyle]="{'width': skill.level + '%'}"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

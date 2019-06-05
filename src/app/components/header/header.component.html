@@ -1,0 +1,14 @@
+<header>
+  <h1 class="header center-align animated fadeIn show-on-large">{{ personalData.firstName + ' ' + personalData.lastName }}</h1>
+
+  <div class="prarallax-container hide-on-med-and-up">
+    <div class="parallax">
+      <div class="profile-container">
+        <figure class="profile-photo animated fadeIn">
+          <img [src]="personalData.photo" alt="Foto de perfil">
+        </figure>
+        <h1 class="center-align animated fadeIn">{{ personalData.firstName + ' ' + personalData.lastName }}</h1>
+      </div>
+    </div>
+  </div>
+</header>

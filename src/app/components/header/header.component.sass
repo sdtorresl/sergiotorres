@@ -1,0 +1,56 @@
+.parallax-container
+  height: 450px
+
+  .parallax 
+    /* The image used */
+    background-image: url('http://caraujo_pens.surge.sh/images/ZnkfwAR.jpg')
+
+    /* Full height */
+    height: 100%
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+    &:after
+      content: ''
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      background-color: rgba(0,0,0,0.5)
+      z-index: -1
+
+
+.profile-container
+  display: flex
+  flex-direction: column
+  flex-wrap: nowrap
+  justify-content: flex-start
+  align-items: center
+  align-content: stretch
+  margin-top: 75px
+
+  .profile-photo
+    border: 2px solid white
+    border-radius: 200px
+    overflow: hidden
+    width: 200px
+    height: 200px
+
+    img
+      opacity: 1
+      height: 100%
+      width: 200px
+      position: initial
+      min-width: auto
+      min-height: auto
+      transform: translate(0)
+  
+  h1
+    color: white
+    margin-top: 1rem
+    margin-bottom: 2rem

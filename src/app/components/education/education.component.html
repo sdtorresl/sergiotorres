@@ -1,0 +1,15 @@
+<section id="education">
+  <div class="section">
+    <h2>{{ education.title }}</h2>
+    <div class="divider"></div>
+  </div>
+  
+  <div class="education row" *ngFor="let study of studies">
+    <div class="type col s3 offset-s3">{{ study.type }}</div>
+    <div class="description col s6">
+      <div class="title">{{ study.title }} {{ (study.level ? '(' + study.level + ')' : '') }}</div>
+      <div *ngIf="study.place" class="place">{{ study.place }}</div>
+      <div class="dates">({{ study.to }})</div>
+    </div>
+  </div>
+</section>

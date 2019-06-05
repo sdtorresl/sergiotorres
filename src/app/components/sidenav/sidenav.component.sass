@@ -1,0 +1,44 @@
+@import "../../../overrides"
+
+.sidenav
+    width: 400px
+
+    .background
+        background: $primary-color
+        
+    .user-view
+        display: flex
+        flex-direction: column
+        flex-wrap: nowrap
+        justify-content: flex-start
+        align-items: center
+        align-content: stretch
+        margin-bottom: 0
+
+        .circle 
+            height: 150px
+            width: 150px
+            box-shadow: 0px 0px 10px #555
+
+    li.item
+        /* text-transform: uppercase */
+
+        .material-icons
+            line-height: 75px
+            height: 75px
+
+        a
+            /* font-family: 'Dosis' */
+            font-size: 1.5rem
+            line-height: 75px
+            height: 75px
+
+            &:hover
+                background: $secondary-color
+                color: white
+
+                i
+                    color: white
+    
+    .divider
+        margin: 0

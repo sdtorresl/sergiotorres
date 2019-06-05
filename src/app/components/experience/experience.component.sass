@@ -1,0 +1,14 @@
+.card
+    transition: 0.5s linear
+    
+    .card-description
+        min-height: 120px
+        
+    &:hover
+        background: black
+        transform: scale(1.1)
+        z-index: 1
+        cursor: pointer
+
+        .card-title, .card-description, .card-footer p
+            color: white!important

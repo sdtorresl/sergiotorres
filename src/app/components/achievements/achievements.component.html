@@ -1,0 +1,17 @@
+<section id="experience">
+  <div class="section">
+    <h2>{{ achievements.title }}</h2>
+    <div class="divider"></div>
+  </div>
+
+  <div class="row">
+    <div class="experience-item col s12 m6" *ngFor="let item of achievements.informationDetails">
+      <div class="card">
+        <div class="card-content black-text">
+          <span class="card-title">{{ item.title }}</span>
+          <p class="card-description black-text">{{ item.text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
